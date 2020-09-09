@@ -31,22 +31,22 @@
 
 	// *** SMTP *** //
 
-		require_once($_SERVER['DOCUMENT_ROOT'] . '/mail/phpmailer/smtp.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/berdsk/mail/phpmailer/smtp.php');
 		const HOST = 'ssl://smtp.yandex.ru';
-		const LOGIN = 'profdezexpert-zayavka@yandex.ru';
-		const PASS = 'Dima123';
+		const LOGIN = 'rosdezexpert-berdsk@yandex.ru';
+		const PASS = 'Master123';
 		const PORT = '465';
 
 	// *** /SMTP *** //
 
   // Почта с которой будет приходить письмо
-	const SENDER = 'profdezexpert-zayavka@yandex.ru';
+	const SENDER = 'rosdezexpert-berdsk@yandex.ru';
 	
 	// Почта на которую будет приходить письмо
-	const CATCHER = 'profdezexpert-zayavka@yandex.ru';
+	const CATCHER = 'rosdezexpert-berdsk@yandex.ru';
 	
 	// Тема письма
-	const SUBJECT = 'Заявка с сайта Линево';
+	const SUBJECT = 'Заявка с сайта Бердск РосДэзЭксперт';
 	
 	// Кодировка
   const CHARSET = 'UTF-8';
